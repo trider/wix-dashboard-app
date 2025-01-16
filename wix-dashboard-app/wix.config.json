@@ -1,0 +1,5 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/wix-config.json",
+  "appId": "65a50aa6-3211-470b-b853-abd1b0461ef7",
+  "projectId": "wix-dashboard-app"
+}

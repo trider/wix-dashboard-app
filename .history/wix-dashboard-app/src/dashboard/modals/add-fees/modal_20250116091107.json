@@ -1,0 +1,7 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/dashboard-modal.json",
+  "id": "428ff0c5-d33d-4b1f-b218-9ec9fb1e636f",
+  "title": "Add Fee",
+  "width": 550,
+  "height": 600
+}

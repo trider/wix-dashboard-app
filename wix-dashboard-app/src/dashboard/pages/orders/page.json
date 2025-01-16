@@ -1,0 +1,6 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/dashboard-page.json",
+  "id": "f4d14245-73c3-4d5f-a7a8-42851f56a6df",
+  "title": "Orders"
+}
+

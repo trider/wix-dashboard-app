@@ -1,0 +1,10 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/dashboard-page.json",
+  "id": "9537fdcc-90ee-4586-a58e-fb2b81be5eb6",
+  "title": "Dashboard",
+  "additionalRoutes": [
+    "/products",
+    "/product-packaging-fees"
+  
+  ]
+}

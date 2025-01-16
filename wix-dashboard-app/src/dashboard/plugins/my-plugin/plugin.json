@@ -1,0 +1,6 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/dashboard-plugin.json",
+  "id": "de562ab4-f2c7-457e-baa2-5f3340fbbff7",
+  "title": "My Plugin",
+  "extends": "261e84a2-31d0-4258-a035-10544d251108"
+}

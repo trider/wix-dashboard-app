@@ -1,0 +1,259 @@
+[
+  {
+    "number": "10002",
+    "lineItems": [
+      {
+        "productName": {
+          "original": "I'm a product",
+          "translated": "I'm a product"
+        },
+        "catalogReference": {
+          "catalogItemId": "df19c1f7-07d8-a265-42f8-e8dfa824cc6e",
+          "appId": "215238eb-22a5-4c36-9e7b-e7c08025e04e"
+        },
+        "quantity": 1,
+        "totalDiscount": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+        "descriptionLines": [],
+        "image": "wix:image://v1/22e53e_2fee033b2eca46cab4eec7fa74e99c31~mv2.jpg#originWidth=3000&originHeight=3000",
+        "physicalProperties": { "sku": "364215376135191", "shippable": true },
+        "itemType": { "preset": "PHYSICAL" },
+        "price": { "amount": "85.00", "formattedAmount": "85.00 ₪" },
+        "priceBeforeDiscounts": {
+          "amount": "85.00",
+          "formattedAmount": "85.00 ₪"
+        },
+        "totalPriceBeforeTax": {
+          "amount": "85.00",
+          "formattedAmount": "85.00 ₪"
+        },
+        "totalPriceAfterTax": {
+          "amount": "85.00",
+          "formattedAmount": "85.00 ₪"
+        },
+        "paymentOption": "FULL_PAYMENT_ONLINE",
+        "taxDetails": {
+          "taxableAmount": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+          "taxRate": "0.0000",
+          "totalTax": { "amount": "0.00", "formattedAmount": "0.00 ₪" }
+        },
+        "taxInfo": {
+          "taxAmount": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+          "taxableAmount": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+          "taxRate": "0.0000",
+          "taxIncludedInPrice": false,
+          "taxBreakdown": []
+        },
+        "locations": [],
+        "lineItemPrice": { "amount": "85.00", "formattedAmount": "85.00 ₪" },
+        "customLineItem": false,
+        "rootCatalogItemId": "df19c1f7-07d8-a265-42f8-e8dfa824cc6e",
+        "taxableAddress": { "addressType": "SHIPPING" },
+        "priceUndetermined": false,
+        "fixedQuantity": false,
+        "_id": "00000000-0000-0000-0000-000000000001"
+      }
+    ],
+    "paymentStatus": "NOT_PAID",
+    "fulfillmentStatus": "NOT_FULFILLED",
+    "buyerLanguage": "en",
+    "weightUnit": "KG",
+    "currency": "ILS",
+    "taxIncludedInPrices": false,
+    "siteLanguage": "en",
+    "priceSummary": {
+      "subtotal": { "amount": "85.00", "formattedAmount": "85.00 ₪" },
+      "shipping": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+      "tax": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+      "discount": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+      "totalPrice": { "amount": "1085.00", "formattedAmount": "1,085.00 ₪" },
+      "total": { "amount": "1085.00", "formattedAmount": "1,085.00 ₪" },
+      "totalWithGiftCard": {
+        "amount": "1085.00",
+        "formattedAmount": "1,085.00 ₪"
+      },
+      "totalWithoutGiftCard": {
+        "amount": "1085.00",
+        "formattedAmount": "1,085.00 ₪"
+      },
+      "totalAdditionalFees": {
+        "amount": "1000.00",
+        "formattedAmount": "1,000.00 ₪"
+      }
+    },
+    "status": "APPROVED",
+    "archived": false,
+    "taxSummary": {
+      "totalTax": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+      "manualTaxRate": "0"
+    },
+    "taxInfo": {
+      "totalTax": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+      "taxBreakdown": [],
+      "manualTaxRate": "0"
+    },
+    "appliedDiscounts": [],
+    "activities": [
+      {
+        "type": "ORDER_PLACED",
+        "_id": "69bc3767-3c8f-41a2-b912-61cf8dbee403",
+        "_createdDate": "2025-01-16T11:14:45.905Z"
+      },
+      {
+        "draftOrderChangesApplied": {
+          "draftOrderId": "fbcbb77b-dc67-4049-9990-af78ba9cbf02",
+          "changes": []
+        },
+        "type": "DRAFT_ORDER_CHANGES_APPLIED",
+        "_id": "bda10866-6841-4b42-bc3d-8d5193836d57",
+        "_createdDate": "2025-01-16T15:12:50.375Z"
+      }
+    ],
+    "attributionSource": "UNSPECIFIED",
+    "createdBy": { "userId": "3fff15ba-980b-45c3-9233-e10d3e64b93a" },
+    "channelInfo": { "type": "BACKOFFICE_MERCHANT" },
+    "seenByAHuman": true,
+    "customFields": [],
+    "isInternalOrderCreate": false,
+    "balanceSummary": {
+      "balance": { "amount": "1085.00", "formattedAmount": "1,085.00 ₪" },
+      "paid": { "amount": "0", "formattedAmount": "0.00 ₪" },
+      "refunded": { "amount": "0", "formattedAmount": "0.00 ₪" },
+      "authorized": { "amount": "0", "formattedAmount": "0.00 ₪" },
+      "pendingRefund": { "amount": "0", "formattedAmount": "0.00 ₪" },
+      "pending": { "amount": "0", "formattedAmount": "0.00 ₪" }
+    },
+    "additionalFees": [
+      {
+        "name": "wrapping",
+        "price": { "amount": "1000.00", "formattedAmount": "1,000.00 ₪" },
+        "providerAppId": "1380b703-ce81-ff05-f115-39571d94dfcd",
+        "priceBeforeTax": {
+          "amount": "1000.00",
+          "formattedAmount": "1,000.00 ₪"
+        },
+        "priceAfterTax": {
+          "amount": "1000.00",
+          "formattedAmount": "1,000.00 ₪"
+        },
+        "lineItemIds": [],
+        "_id": "bfa25fb0-b47c-466d-964f-bb0e3e77710f"
+      }
+    ],
+    "purchasedDate": "2025-01-16T11:15:15.610Z",
+    "_id": "6e445a01-a475-4da4-ab98-374580ea2516",
+    "_createdDate": "2025-01-16T11:15:15.610Z",
+    "_updatedDate": "2025-01-16T15:12:50.407Z"
+  },
+  {
+    "number": "10001",
+    "lineItems": [
+      {
+        "productName": {
+          "original": "I'm a product",
+          "translated": "I'm a product"
+        },
+        "catalogReference": {
+          "catalogItemId": "df19c1f7-07d8-a265-42f8-e8dfa824cc6e",
+          "appId": "215238eb-22a5-4c36-9e7b-e7c08025e04e"
+        },
+        "quantity": 1,
+        "totalDiscount": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+        "descriptionLines": [],
+        "image": "wix:image://v1/22e53e_2fee033b2eca46cab4eec7fa74e99c31~mv2.jpg#originWidth=3000&originHeight=3000",
+        "physicalProperties": { "sku": "364215376135191", "shippable": true },
+        "itemType": { "preset": "PHYSICAL" },
+        "price": { "amount": "85.00", "formattedAmount": "85.00 ₪" },
+        "priceBeforeDiscounts": {
+          "amount": "85.00",
+          "formattedAmount": "85.00 ₪"
+        },
+        "totalPriceBeforeTax": {
+          "amount": "85.00",
+          "formattedAmount": "85.00 ₪"
+        },
+        "totalPriceAfterTax": {
+          "amount": "85.00",
+          "formattedAmount": "85.00 ₪"
+        },
+        "paymentOption": "FULL_PAYMENT_ONLINE",
+        "taxDetails": {
+          "taxableAmount": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+          "taxRate": "0.0000",
+          "totalTax": { "amount": "0.00", "formattedAmount": "0.00 ₪" }
+        },
+        "taxInfo": {
+          "taxAmount": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+          "taxableAmount": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+          "taxRate": "0.0000",
+          "taxIncludedInPrice": false,
+          "taxBreakdown": []
+        },
+        "locations": [],
+        "lineItemPrice": { "amount": "85.00", "formattedAmount": "85.00 ₪" },
+        "customLineItem": false,
+        "rootCatalogItemId": "df19c1f7-07d8-a265-42f8-e8dfa824cc6e",
+        "taxableAddress": { "addressType": "SHIPPING" },
+        "priceUndetermined": false,
+        "fixedQuantity": false,
+        "_id": "00000000-0000-0000-0000-000000000001"
+      }
+    ],
+    "paymentStatus": "NOT_PAID",
+    "fulfillmentStatus": "NOT_FULFILLED",
+    "buyerLanguage": "en",
+    "weightUnit": "KG",
+    "currency": "ILS",
+    "taxIncludedInPrices": false,
+    "siteLanguage": "en",
+    "priceSummary": {
+      "subtotal": { "amount": "85.00", "formattedAmount": "85.00 ₪" },
+      "shipping": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+      "tax": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+      "discount": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+      "totalPrice": { "amount": "85.00", "formattedAmount": "85.00 ₪" },
+      "total": { "amount": "85.00", "formattedAmount": "85.00 ₪" },
+      "totalWithGiftCard": { "amount": "85.00", "formattedAmount": "85.00 ₪" },
+      "totalWithoutGiftCard": {
+        "amount": "85.00",
+        "formattedAmount": "85.00 ₪"
+      },
+      "totalAdditionalFees": { "amount": "0.00", "formattedAmount": "0.00 ₪" }
+    },
+    "status": "APPROVED",
+    "archived": false,
+    "taxSummary": {
+      "totalTax": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+      "manualTaxRate": "0"
+    },
+    "taxInfo": {
+      "totalTax": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+      "taxBreakdown": [],
+      "manualTaxRate": "0"
+    },
+    "appliedDiscounts": [],
+    "activities": [
+      {
+        "type": "ORDER_PLACED",
+        "_id": "324e3f13-c17a-4a09-91ae-1bf5ebd87cac",
+        "_createdDate": "2025-01-15T19:51:09.648Z"
+      }
+    ],
+    "attributionSource": "UNSPECIFIED",
+    "createdBy": { "userId": "3fff15ba-980b-45c3-9233-e10d3e64b93a" },
+    "channelInfo": { "type": "BACKOFFICE_MERCHANT" },
+    "seenByAHuman": true,
+    "customFields": [],
+    "isInternalOrderCreate": false,
+    "balanceSummary": {
+      "balance": { "amount": "85.00", "formattedAmount": "85.00 ₪" },
+      "paid": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+      "refunded": { "amount": "0.00", "formattedAmount": "0.00 ₪" },
+      "authorized": { "amount": "0.00", "formattedAmount": "0.00 ₪" }
+    },
+    "additionalFees": [],
+    "purchasedDate": "2025-01-15T19:54:21.519Z",
+    "_id": "9345360c-b3ef-4999-918f-ffb322d68514",
+    "_createdDate": "2025-01-15T19:54:21.519Z",
+    "_updatedDate": "2025-01-15T19:54:23.755Z"
+  }
+]

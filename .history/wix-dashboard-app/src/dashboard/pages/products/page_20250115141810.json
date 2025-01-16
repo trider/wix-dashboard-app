@@ -1,0 +1,6 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/products.json",
+  "id": "b7cbfea2-6167-461c-a578-9fc6bbb84b6c",
+  "title": "Wix Dashboard App",
+  "additionalRoutes": ["/products"]
+}

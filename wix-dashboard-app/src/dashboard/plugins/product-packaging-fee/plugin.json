@@ -1,0 +1,6 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/dashboard-plugin.json",
+  "id": "46aabc7b-287d-45e8-94f1-e286df14775d",
+  "title": "Product Packaging Fee",
+  "extends": "3ca518a6-8ae7-45aa-8cb9-afb3da945081"
+}

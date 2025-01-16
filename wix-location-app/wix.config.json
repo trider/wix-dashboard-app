@@ -1,0 +1,5 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/wix-config.json",
+  "appId": "daf8b050-b6f8-405e-b9e5-0e7c7f56c70f",
+  "projectId": "wix-location-app"
+}

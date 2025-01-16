@@ -1,0 +1,66 @@
+[
+ {
+  "name": "All Products",
+  "media": {
+   "mainMedia": {
+    "thumbnail": {
+     "url": "https://static.wixstatic.com/media/22e53e_ef2ebbf33af24b7fba34e44589f3dc38~mv2.jpg/v1/fit/w_50,h_50,q_90/file.jpg",
+     "width": 50,
+     "height": 50
+    },
+    "mediaType": "image",
+    "title": "",
+    "image": {
+     "url": "https://static.wixstatic.com/media/22e53e_ef2ebbf33af24b7fba34e44589f3dc38~mv2.jpg/v1/fit/w_5000,h_3652,q_90/file.jpg",
+     "width": 5000,
+     "height": 3652
+    },
+    "_id": ""
+   },
+   "items": [
+    {
+     "thumbnail": {
+      "url": "https://static.wixstatic.com/media/22e53e_ef2ebbf33af24b7fba34e44589f3dc38~mv2.jpg/v1/fit/w_50,h_50,q_90/file.jpg",
+      "width": 50,
+      "height": 50
+     },
+     "mediaType": "image",
+     "title": "",
+     "image": {
+      "url": "https://static.wixstatic.com/media/22e53e_ef2ebbf33af24b7fba34e44589f3dc38~mv2.jpg/v1/fit/w_5000,h_3652,q_90/file.jpg",
+      "width": 5000,
+      "height": 3652
+     },
+     "_id": ""
+    }
+   ]
+  },
+  "numberOfProducts": 13,
+  "description": "This is your category description. It’s a great place to tell customers what this category is about, connect with your audience and draw attention to your products.",
+  "slug": "all-products",
+  "visible": true,
+  "_id": "00000000-000000-000000-000000000001"
+ },
+ {
+  "name": "Fragile Items",
+  "media": {
+   "items": []
+  },
+  "numberOfProducts": 2,
+  "description": "This item is fragile and requires additional packaging",
+  "slug": "fragile",
+  "visible": true,
+  "_id": "f1818cf3-4c39-9715-baea-e0113af71ad0"
+ },
+ {
+  "name": "Hazadous Material",
+  "media": {
+   "items": []
+  },
+  "numberOfProducts": 2,
+  "description": "This item contains materials the requires special handling",
+  "slug": "hazadous",
+  "visible": true,
+  "_id": "4466f244-f968-4476-c07b-bd73e53235cb"
+ }
+]

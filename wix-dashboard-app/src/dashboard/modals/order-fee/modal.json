@@ -1,0 +1,7 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/dashboard-modal.json",
+  "id": "b2826c4d-a44a-414e-84cc-5f48d37599ee",
+  "title": "Order Fee",
+  "width": 550,
+  "height": 600
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/dashboard-plugin.json",
+  "id": "93ec759d-d245-4abd-bd37-6943cb8eb067",
+  "title": "Orders Plugin",
+  "extends": "cb16162e-42aa-41bd-a644-dc570328c6cc"
+}
