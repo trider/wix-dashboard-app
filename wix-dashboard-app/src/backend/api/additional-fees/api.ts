@@ -26,9 +26,6 @@ export async function GET(req: Request) {
   const fees:AdditionalFee[] = mergeFeesWithCollection(collectionsResponse.items);
   
   return Response.json(fees)
-  // const data = await req.json();
-  // console.log('Log Get', data);
-  // return Response.json(data);
   
 };
 
