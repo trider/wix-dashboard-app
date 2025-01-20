@@ -123,6 +123,7 @@ export const ProductDetails: FC<{ product: products.Product }> = ({
       <Box>
           <Text tabName="p">
             {product.description}
+            <br/>
             <img
               src={product.media?.mainMedia?.image?.url}
               style={{ width: "20%", marginTop: "20px" }}
@@ -130,7 +131,7 @@ export const ProductDetails: FC<{ product: products.Product }> = ({
             
           </Text>
         </Box>
-        {getTable()}
+        {/* {getTable()} */}
       </Card.Content>
     </Card>
   );
