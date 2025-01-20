@@ -12,6 +12,7 @@
     "@wix/editor": "^1.338.0",
     "@wix/essentials": "^0.1.13",
     "@wix/patterns": "^1.145.0",
+    "@wix/sdk": "^1.15.8",
     "@wix/stores": "^1.0.343",
     "@wix/wix-ui-icons-common": "^3.62.0",
     "react-query": "^3.39.3",

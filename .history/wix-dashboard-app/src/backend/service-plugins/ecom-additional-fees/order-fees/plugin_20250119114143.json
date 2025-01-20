@@ -1,0 +1,7 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/ecom-additional-fees.json",
+  "id": "ef804e50-c1e3-4aeb-b935-980f2e43c31d",
+  "name": "order-fees",
+  "deploymentUri": "https://my-additional-fees-app.com/",
+  "extends": "3ca518a6-8ae7-45aa-8cb9-afb3da945081""
+}
