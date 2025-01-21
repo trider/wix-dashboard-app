@@ -5,6 +5,7 @@ import React, {
   useState,
   type FC,
 } from "react";
+
 import {
   WixDesignSystemProvider,
   Card,
@@ -33,16 +34,12 @@ import { useQuery } from "react-query";
 import { products } from "@wix/stores";
 import { checkout } from "@wix/ecom";
 import { httpClient } from "@wix/essentials";
-
-
 import { AdditionalFee } from "../../../types";
 
 const ProductPackagingFeesPlugin: FC = () => {
   const [currentProduct, setCurrentProduct] = useState<products.Product>();
   const [searchQuery, setSearchQuery] = useState<string>("");
-  const [additionalFees, setAdditionalFee] = useState<AdditionalFee | null>(
-    null
-  );
+  const [additionalFees, setAdditionalFee] = useState<AdditionalFee | null>(null);
   const [feeName, setFeeName] = useState("Packing");
   const [feeAmount, setFeeAmount] = useState(10);
   const [feeDescription, setFeeDescription] = useState("Description of fee");
@@ -117,11 +114,7 @@ const ProductPackagingFeesPlugin: FC = () => {
     // createOrder(id,orderOptions)
   };
 
-  const addAdditionalFeesToProduct = async (
-    id: string,
-    payload: checkout.AddToCheckoutOptions,
-    options: checkout.UpdateCheckoutOptions
-  ) => {
+  const addAdditionalFeesToProduct = async (id: string, payload: checkout.AddToCheckoutOptions, options: checkout.UpdateCheckoutOptions ) => {
     const additionalFeeResponse = await httpClient
       .fetchWithAuth(
         `${import.meta.env.BASE_API_URL}/additional-fees?productId=${
@@ -136,9 +129,7 @@ const ProductPackagingFeesPlugin: FC = () => {
     const additionalFeeData = await additionalFeeResponse.json();
 
     setAdditionalFee(additionalFeeData);
-    alert(JSON.stringify(additionalFeeData));
-    console.log(additionalFeeData);
-    // updateCheckout(id, payload, options);
+    updateCheckout(id, payload, options);
   };
 
   const addAdditionalFees = async (id: string, payload: checkout.AddToCheckoutOptions,
@@ -149,8 +140,6 @@ const ProductPackagingFeesPlugin: FC = () => {
     body: JSON.stringify(fee)
   })
   const feeData = await feeResp.json();
-  alert(JSON.stringify(feeData));
-  console.log(feeData);
   addAdditionalFeesToProduct(id, payload, options);
 }
 
@@ -185,9 +174,8 @@ const ProductPackagingFeesPlugin: FC = () => {
     );
 
     const feeData = await fee.json();
-    alert(JSON.stringify(feeData));
-    console.log(feeData);
-    addAdditionalFees(id, payload, options, feeData);
+    addAdditionalFees(id, payload, options, feeData)
+   
   };
 
   const addToCheckout = async (
